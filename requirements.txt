@@ -1,8 +1,4 @@
 flask
 flask-cors
 playwright
-
-echo "gunicorn" >> requirements.txt
-git add requirements.txt
-git commit -m "chore: add gunicorn to deps"
-git push   # Render가 새 커밋 감지
+gunicorn
